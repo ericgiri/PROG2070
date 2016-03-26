@@ -1,0 +1,74 @@
+<!--
+Template for General purpose html5 page with JQuery Mobile
+Created by: Bhawani Giri
+email:      bgiri0706@conestogac.on.ca
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add New Vehicle</title>
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+        <script src="js/myscript.js"></script>
+    </head>
+    <body>
+        <section class="container">
+            <h1>Welcome To Auto App</h1>
+            <div class="main">
+                <p id="msg">Error</p>
+                <form name="autoForm" action="" method="post">
+                    <table>
+                        <tr>
+                            <!--<td class="img"><img src="image/seller.png" width="80" height="50"/></td>-->
+                            <td colspan="2" class="heading"><img src="image/seller.png" width="80" height="50"/>
+                                <p>Seller Information</p></td>
+                        </tr>
+                        <tr>
+                            <th><label for="txtName">Name</label></th>
+                            <td><input type="text" id="txtName" name="txtName" style="height:30px;width:300px"><br></td>
+                        </tr>
+                        <tr>
+                            <th><label for="txtCity">City</label></th>
+                            <td><input type="text" id="txtCity" style="height:30px;width:300px"><br></td>
+                        </tr>
+                        <tr>
+                            <th><label for="txtAddress">Address</label></th>
+                            <td><input type="text" id="txtAddress" style="height:30px;width:300px"><br></td>
+                        </tr>
+                        <tr>
+                            <th><label for="txtPhone">Phone</label></th>
+                            <td><input type="text" id="txtPhone" style="height:30px;width:300px"><br></td>
+                        </tr>
+                        <tr>
+                            <th><label for="txtEmail">Email Address</label></th>
+                            <td><input type="text" id="txtEmail" style="height:30px;width:300px"><br></td>
+                        </tr>
+                        <tr>
+                            <!--<td class="img"><img src="image/car.png" width="80" height="50"/></td>-->
+                            <td colspan="2" class="heading"><img src="image/car.png" width="80" height="50"/>
+                                <p>Vehicle Information</p></td>
+                        </tr>
+                        <tr>
+                            <th><label for="txtMake">Make</label></th>
+                            <td><input type="text" id="txtMake" style="height:30px;width:300px"><br></td>
+                        </tr>
+                        <tr>
+                            <th><label for="txtModel">Model</label></th>
+                            <td><input type="text" id="txtModel" style="height:30px;width:300px"><br></td>
+                        </tr>
+                        <tr>
+                            <th><label for="txtYear">Year</label></th>
+                            <td><input type="text" id="txtYear" style="height:30px; width:300px"><br></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Submit Now" id="submit" onclick="validateForm();" style="height:60px; width:400px">
+                </form>
+
+            </div>
+            <h4>&copy; Bhawani Giri 2016</h4>
+        </section>
+    </body>
+</html>
+
+
